@@ -105,6 +105,28 @@ footer > p {
   font-style: italic;
 }
 
+@media (max-width: 730px) {
+  .container-fluid {
+    padding: 30px 26px;
+  }
+  img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    margin-bottom: 80px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+  footer > p {
+    font-size: 14px;
+    padding: 8px 4px;
+  }
+}
+
 /*
  display: flex;
   flex-direction: column;
