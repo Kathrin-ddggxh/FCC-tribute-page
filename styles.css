@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #6a839b;
+  --secondary-color: #e4c34d;
+}
+
+body {
+  text-align: center;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  background-image: url(images/background.jpg);
+  background-repeat: repeat-x;
+}
+
+header {
+  background-color: #6a839b;
+  margin-bottom: -50px;
+  padding: 40px;
+  padding-bottom: 80px;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-size: 38px;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 28px;
+  text-decoration: underline;
+  margin-top: 38px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+  box-shadow: 90px 20px #b1973a, -90px 20px #b1973a;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(106, 131, 155, 0.2);
+  margin: 0 58px 0px 58px;
+  box-shadow: 60px 0px #b1973a, -60px 0px #b1973a;
+}
+
+footer > p {
+  margin-top: 1rem;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
+}
+
+#img-caption {
+  padding-top: 22px;
+  color: var(--primary-color);
+}
+
+.container-fluid {
+  font-size: 18px;
+  line-height: 2;
+
+  padding: 50px 180px;
+}
+
+.year,
+.event {
+  padding: 6px 0;
+}
+
+.year {
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-align: left;
+}
+
+.event {
+  text-align: justify;
+}
+
+#quotes {
+  padding: 0 80px 50px 80px;
+
+  background-image: linear-gradient(#ffffff, #b1973a);
+}
+
+.quotation-mark {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  top: 20px;
+  right: 2px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+/*
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  */
