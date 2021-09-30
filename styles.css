@@ -91,14 +91,19 @@ footer > p {
   background-image: linear-gradient(#ffffff, #b1973a);
 }
 
+#quotes > p {
+  padding-bottom: 18px;
+}
+
 .quotation-mark {
   color: var(--primary-color);
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 400;
+  font-style: italic;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: relative;
-  top: 20px;
-  right: 2px;
+  top: 12px;
+  right: 4px;
 }
 
 .quote {
